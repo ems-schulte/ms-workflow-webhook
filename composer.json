@@ -1,0 +1,39 @@
+{
+    "version": "0.0.1",
+    "name": "ems-schulte/ms-workflow-webhook",
+    "description": "This Composer package allows integration of workflows in Microsoft Teams and triggers webhooks. With this component, users in a Microsoft Teams environment can perform automated actions by sending webhooks that are embedded in workflows. Ideal for connecting external systems or triggering processes directly from Microsoft Teams.",
+    "type": "library",
+    "license": "Apache-2.0",
+    "tags": [
+        "microsoft",
+        "teams",
+        "workflow",
+        "webhook"
+    ],
+    "autoload": {
+        "psr-4": {
+            "EmsSchulte\\MsWorkflowWebhook\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Benedikt Schulte",
+            "email": "benedikt@bullshitmedia.de"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/ems-schulte/ms-workflow-webhook"
+
+        },
+        {
+            "type": "composer",
+            "url": "https://packagist.org"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.4"
+    }
+}
