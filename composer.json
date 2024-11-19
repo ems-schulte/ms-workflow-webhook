@@ -25,7 +25,6 @@
         {
             "type": "vcs",
             "url": "https://github.com/ems-schulte/ms-workflow-webhook"
-
         },
         {
             "type": "composer",
@@ -34,6 +33,13 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "php": "^7.4"
-    }
+        "php": "^8.2"
+    },
+	"extra": {
+		"laravel": {
+			"providers": [
+				"ems-schulte\\ms-workflow-webhook\\MsWorkflowWebhookProvider"
+			]
+		}
+	}
 }
