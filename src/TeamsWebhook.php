@@ -69,11 +69,11 @@ class TeamsWebhook
     {
         return [
             "type" => "TextBlock",
-            /*"size" => $size,
-            "weight" => $weight,*/
-            "text" => $text/*,
+            "size" => $size,
+            "weight" => $weight,
+            "text" => $text,
             "style" => $style,
-            "wrap" => true*/
+            "wrap" => true
         ];
     }
 
